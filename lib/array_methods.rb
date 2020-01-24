@@ -1,11 +1,14 @@
 def find_element_index(array, value_to_find)
   output = nil
+  counter = 0
   
-  array.each do |value|
+  array.length.times do |value|
     if value == value_to_find
-      output = value
+      output = counter
     end
+    counter += 1
   end
+  
   return output
 end
 
