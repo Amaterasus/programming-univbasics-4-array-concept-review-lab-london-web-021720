@@ -22,6 +22,7 @@ def find_max_value(array)
     end
   end
   
+  return output
 end
 
 def find_min_value(array)
