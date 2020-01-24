@@ -20,6 +20,7 @@ def find_max_value(array)
     if array[counter] > output
       output = array[counter]
     end
+    counter += 1
   end
   
   return output
